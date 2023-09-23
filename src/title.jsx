@@ -1,7 +1,8 @@
+import "./main.css";
 function Title() {
   return (
     <>
-      <div>
+      <div className="container-title">
         <p className="title">Le site arrive très prochainement...</p>
       </div>
     </>

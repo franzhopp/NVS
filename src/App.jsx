@@ -8,10 +8,9 @@ function App() {
       <div className="container">
         <img src={image} className="logo" />
       </div>
-        <Title/>
+      <Title />
     </>
   );
 }
-
 
 export default App;

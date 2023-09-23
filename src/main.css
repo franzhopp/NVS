@@ -37,13 +37,46 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
+  .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .container-title {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 16px;
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 390px) {
+  .logo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .container-title {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 16px;
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 790px) {
   .logo {
     height: 120px;
     width: 120px;
   }
 
   .title {
+
     font-size: 16px;
     letter-spacing: 6px;
   }
